@@ -1,0 +1,19 @@
+<mvc:View
+  controllerName="sap.ui.demo.start.controller.App"
+  xmlns="sap.m"
+  xmlns:mvc="sap.ui.core.mvc"
+  displayblock = 'true'>
+  <Shell>
+  <App class="myApp">
+    <pages>
+    <Page title="{i18n>homePageTitle}">
+      <content>
+        <mvc:XMLView
+        viewName = "sap.ui.demo.start.view.HelloPanel"
+        ></mvc:XMLView>
+      </content>
+    </Page>
+  </pages>
+  </App>
+  </Shell>
+</mvc:View>
