@@ -8,6 +8,7 @@
     <content>
     <Button
     id = "helloDialogBtn"
+    icon ="sap-icon://world"
     text = "{i18n>openDialogBtn}"
     press = ".onOpenDialog"
     class = "sapUiSmallMarginEnd"></Button>
