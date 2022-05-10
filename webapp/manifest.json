@@ -11,10 +11,10 @@
     "applicationVersion": {
       "version": "1.0.0"
     },
-    "title": "{{appTitle}}",
-    "description": "{{appDescription}}",
+    "title": "",
+    "description": "",
     "tags": {
-      "keywords": ["{{<keyword1>}}", "{{<keyword2>}}"]
+      "keywords": [""]
     },
     "dataSources": {
       "<dataSourceAlias>": {
